@@ -1,0 +1,9 @@
+2024-08-12 09:00:38,061 - INFO - Entered the data ingestion component
+2024-08-12 09:00:38,071 - INFO - read the dataset as dataframe
+2024-08-12 09:00:38,079 - INFO - train test split initiated
+2024-08-12 09:00:38,089 - INFO - ingestion of the data is completed.
+2024-08-12 09:00:38,120 - INFO - Read train and test data completed
+2024-08-12 09:00:38,120 - INFO - Obtaining preprocessing object
+2024-08-12 09:00:38,120 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2024-08-12 09:00:38,120 - INFO - Numerical columns: ['writing score', 'reading score']
+2024-08-12 09:00:38,122 - INFO - Applying preprocessing object on training dataframe and testing dataframe.
