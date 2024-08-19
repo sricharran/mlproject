@@ -31,13 +31,13 @@ class ModelTrainer:
             )
             
             models = {
-                "Linear Regression": LinearRegression(),
-                "Gradient Boosting": GradientBoostingRegressor(),
-                "K-Neighbors Regressor": KNeighborsRegressor(),
-                "Decision Tree": DecisionTreeRegressor(),
                 "Random Forest": RandomForestRegressor(),
-                "XGBoost Regressor": XGBRegressor(),
-                "AdaBoost Regressor": AdaBoostRegressor()
+                "Decision Tree": DecisionTreeRegressor(),
+                "Gradient Boosting": GradientBoostingRegressor(),
+                "Linear Regression": LinearRegression(),
+                "XGBRegressor": XGBRegressor(),
+                #"CatBoosting Regressor": CatBoostRegressor(verbose=False),
+                "AdaBoost Regressor": AdaBoostRegressor(),
             }
             params={
                 "Decision Tree": {

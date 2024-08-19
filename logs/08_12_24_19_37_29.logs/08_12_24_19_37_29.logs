@@ -1,0 +1,13 @@
+2024-08-12 19:37:34,706 - INFO - Entered the data ingestion component
+2024-08-12 19:37:34,863 - INFO - read the dataset as dataframe
+2024-08-12 19:37:34,935 - INFO - train test split initiated
+2024-08-12 19:37:35,011 - INFO - ingestion of the data is completed.
+2024-08-12 19:37:35,042 - INFO - Read train and test data completed
+2024-08-12 19:37:35,042 - INFO - Obtaining preprocessing object
+2024-08-12 19:37:35,042 - INFO - Categorical columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+2024-08-12 19:37:35,042 - INFO - Numerical columns: ['writing score', 'reading score']
+2024-08-12 19:37:35,058 - INFO - Applying preprocessing object on training and test dataframe
+2024-08-12 19:37:35,105 - INFO - Saved preprocessing object
+2024-08-12 19:37:35,121 - INFO - Splitting train and test data
+2024-08-12 19:37:35,121 - INFO - Evaluating models
+2024-08-12 19:38:25,514 - INFO - Best model found: Linear Regression with R2 score: 0.8804332983749565
